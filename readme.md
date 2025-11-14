@@ -1,4 +1,4 @@
-2. Sistema de Planejamento de Tarefas
+Sistema de Planejamento de Tarefas
 
 Objetivo: Desenvolver uma aplicação para gerenciar tarefas diárias, permitindo a adição, remoção, atualização e consulta de tarefas pendentes.
 
@@ -16,25 +16,4 @@ Busca Binária: Para procurar rapidamente tarefas em uma lista ordenada.
 
 QuickSort/MergeSort: Para ordenar as tarefas por prioridade ou data de vencimento.
 
---------------------------------------------------
-
-4. Sistema de Agendamento de Consultas Médicas
-
-Objetivo: Criar um sistema para agendar consultas médicas, verificar disponibilidade de médicos e enviar lembretes.
-
-Estruturas:
-
-Lista Encadeada: Para armazenar os horários disponíveis para consulta.
-
-Árvore Binária de Busca (BST): Para organizar os médicos por especialidade ou nome.
-
-Tabela Hash: Para mapear pacientes a médicos e agendamentos.
-
-Algoritmos:
-
-Busca Binária: Para encontrar rapidamente horários disponíveis ou médicos por especialidade.
-
-QuickSort/MergeSort: Para ordenar os agendamentos por data e hora.
-
-----------------------------------------------------
 
