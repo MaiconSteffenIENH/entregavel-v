@@ -39,10 +39,3 @@
 - `index.html` - Interface HTML com elementos interativos
 - `styles.css` - Estilos da interface
 
-## REQUISITOS ATENDIDOS
-
-✅ Três estruturas de dados + dois algoritmos
-✅ Interface com elementos clicáveis
-✅ Mais de 400 linhas de código JavaScript
-✅ Aplicação funcional e utilizável
-
