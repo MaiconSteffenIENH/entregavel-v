@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Planejamento de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sistema de Planejamento de Tarefas</h1>
+            <div class="stats" id="stats"></div>
+        </header>
+
+        <div class="controls">
+            <button id="addTaskBtn" class="btn btn-primary">Adicionar Tarefa</button>
+            <button id="sortByPriorityBtn" class="btn">Ordenar por Prioridade</button>
+            <button id="sortByDateBtn" class="btn">Ordenar por Data</button>
+            <input type="text" id="searchInput" placeholder="Buscar por ID ou tag...">
+            <button id="searchBtn" class="btn">Buscar</button>
+        </div>
+
+        <div class="task-form" id="taskForm" style="display: none;">
+            <h3>Nova Tarefa</h3>
+            <input type="text" id="taskTitle" placeholder="Título da tarefa" required>
+            <textarea id="taskDescription" placeholder="Descrição"></textarea>
+            <input type="date" id="taskDueDate" required>
+            <select id="taskPriority">
+                <option value="1">Baixa</option>
+                <option value="2">Média</option>
+                <option value="3">Alta</option>
+            </select>
+            <input type="text" id="taskTags" placeholder="Tags (separadas por vírgula)">
+            <div class="form-buttons">
+                <button id="saveTaskBtn" class="btn btn-primary">Salvar</button>
+                <button id="cancelTaskBtn" class="btn">Cancelar</button>
+            </div>
+        </div>
+
+        <div class="tasks-container">
+            <h2>Tarefas</h2>
+            <div id="tasksList" class="tasks-list"></div>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
