@@ -1,54 +1,48 @@
-APLICÁVEL
+## ESTRUTURAS DE DADOS IMPLEMENTADAS
 
-Você deve implementar uma aplicação que siga ALGUM destes requisitos (a ou b):
+### Principais (Requisito):
+1. **Lista Encadeada** (`structs/linked-list.js`) - Gerenciamento dinâmico de tarefas
+2. **Árvore Binária de Busca (BST)** (`structs/bst.js`) - Organização por data de vencimento
+3. **Tabela Hash** (`structs/hash-table.js`) - Busca por tags e categorias
 
-a) Três estruturas de dados e dois algoritmos (de ordenação, busca, etc.);
+### Extras:
+4. **Queue** (`structs/queue.js`) - Fila para processamento de tarefas
+5. **Stack** (`structs/stack.js`) - Pilha para operações de desfazer
 
-b) Trabalhe com visualização de dados (grafos e árvores são aceitáveis).
+## ALGORITMOS IMPLEMENTADOS
 
-DATAS IMPORTANTES
+### Principais (Requisito):
+1. **Busca Binária** (`search/binary-search.js`) - Busca rápida por ID
+2. **MergeSort** (`sort/merge-sort.js`) - Ordenação por prioridade/data
 
-A avaliação ocorre à partir de algumas entregas que vocês devem realizar até datas específicas, e são as seguintes:
+### Extras:
+3. **Bubble Sort** (`sort/bubble-sort.js`) - Ordenação simples
+4. **Insertion Sort** (`sort/insertion-sort.js`) - Ordenação por inserção
+5. **Linear Search** (`search/linear-search.js`) - Busca sequencial
+6. **Sentinel Search** (`search/sentinel-search.js`) - Busca com sentinela
 
-27/11 - Definição das duplas e da ideia do projeto (20% da nota)
-04/12 - Protótipo utilizável da aplicação (30% da nota)
-11/12 - Apresentação do projeto (50% da nota)
+## FUNCIONALIDADES
 
-REQUISITOS DO PROJETO
+- ✅ Adicionar, remover e atualizar tarefas
+- ✅ Busca por ID (busca binária) e por tags (hash table)
+- ✅ Ordenação por prioridade e data (merge sort)
+- ✅ Organização automática por data (BST)
+- ✅ Interface web com elementos clicáveis
+- ✅ Estatísticas de tarefas em tempo real
+- ✅ Marcação de tarefas atrasadas
+- ✅ Sistema de tags para categorização
 
-Além destes, seu projeto deve implementar os seguintes requisitos:
+## ARQUIVOS PRINCIPAIS
 
-- Ter pelo menos 400 linhas de código (HTML e CSS não conta!)
-- Ter interface (pode ser via cli, usando curses no Python, por exemplo. Mas precisa ter elementos clicáveis!)
+- `task-manager.js` - Sistema principal que integra todas as estruturas
+- `app.js` - Interface e lógica da aplicação web
+- `index.html` - Interface HTML com elementos interativos
+- `styles.css` - Estilos da interface
 
-Caso estes requisitos não sejam implementados, você perdera 1,5 pontos para cada!
+## REQUISITOS ATENDIDOS
 
-REGRAS DA APRESENTAÇÃO
-
-Sobre a apresentação, os critérios de avaliação serão os seguintes:
-
-a) Tempo: entre 10 e 20 minutos;
-b) Qualidade: a demonstração não deve apresentar falhas;
-
-Caso estes critérios não sejam seguidos, você perdera 1 ponto para cada!
-
-MINHA ESCOLHA DO QUE FAZER
-
-Sistema de Planejamento de Tarefas
-
-Objetivo: Desenvolver uma aplicação para gerenciar tarefas diárias, permitindo a adição, remoção, atualização e consulta de tarefas pendentes.
-
-Estruturas:
-
-Lista Encadeada: Para manter uma lista dinâmica de tarefas, onde pode-se adicionar ou remover tarefas de forma eficiente.
-
-Árvore Binária de Busca (BST): Para organizar as tarefas por data de vencimento.
-
-Tabela Hash: Para buscar tarefas por tags ou categorias associadas.
-
-Algoritmos:
-
-Busca Binária: Para procurar rapidamente tarefas em uma lista ordenada.
-
-QuickSort/MergeSort: Para ordenar as tarefas por prioridade ou data de vencimento.
+✅ Três estruturas de dados + dois algoritmos
+✅ Interface com elementos clicáveis
+✅ Mais de 400 linhas de código JavaScript
+✅ Aplicação funcional e utilizável
 
